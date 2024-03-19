@@ -1,2 +1,2 @@
-rootProject.name = "KhorumeBot";
-include("bot")
+rootProject.name = "KhorumeBot"
+include("bot", "core")
