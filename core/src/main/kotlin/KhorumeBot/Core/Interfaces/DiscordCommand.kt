@@ -15,5 +15,5 @@ interface DiscordCommand<I, R> {
      * Build any kind of SlashCommand
      * @return slashCommand: SlashCommand;
      */
-    fun Build(): R;
+    fun Build(): R
 }
