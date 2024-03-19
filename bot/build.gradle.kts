@@ -5,6 +5,10 @@ plugins {
     kotlin("jvm") version "1.9.23";
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 repositories {
     mavenCentral()
 }
@@ -19,4 +23,5 @@ sourceSets.main {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.23")
+    implementation("org.javacord:javacord:3.8.0");
 }
