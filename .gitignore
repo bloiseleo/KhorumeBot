@@ -3,3 +3,10 @@
 
 # Ignore Gradle build output directory
 build
+compiler.xml
+gradle.xml
+kotlinc.xml
+misc.xml
+vcs.xml
+workspace.xml
+jarRepositories.xml
