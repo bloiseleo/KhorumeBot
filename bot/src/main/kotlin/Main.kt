@@ -1,8 +1,5 @@
-package KhorumeBot.Bot;
-
-import org.javacord.api.DiscordApiBuilder
+package KhorumeBot.Bot
 
 fun main() {
-    val api = DiscordApiBuilder()
 
 }

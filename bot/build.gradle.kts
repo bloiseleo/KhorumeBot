@@ -2,7 +2,7 @@
 
 plugins {
     id("application")
-    kotlin("jvm") version "1.9.23";
+    kotlin("jvm") version "1.9.23"
 }
 
 kotlin {
@@ -18,10 +18,10 @@ application {
 }
 
 sourceSets.main {
-    java.srcDirs("src/main/kotlin");
+    java.srcDirs("src/main/kotlin")
 }
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.23")
-    implementation("org.javacord:javacord:3.8.0");
+    implementation("org.javacord:javacord:3.8.0")
 }
